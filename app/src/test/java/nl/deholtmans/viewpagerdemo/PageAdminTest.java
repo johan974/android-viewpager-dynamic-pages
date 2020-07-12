@@ -45,10 +45,10 @@ public class PageAdminTest {
         assertEquals( 14, pageAdmin.updatePosition( 3));
         assertEquals( 13, pageAdmin.updatePosition( 2));
         assertEquals( 12, pageAdmin.updatePosition( 1));
-        assertEquals( 11, pageAdmin.updatePosition( 10));
-        assertEquals( 10, pageAdmin.getPage( 9));
-        assertEquals( 12, pageAdmin.getPage( 11));
-        assertEquals( 9, pageAdmin.updatePosition( 8));
+        assertEquals( 12, pageAdmin.updatePosition( 10));
+        assertEquals( 11, pageAdmin.getPage( 9));
+        assertEquals( 13, pageAdmin.getPage( 11));
+        assertEquals( 10, pageAdmin.updatePosition( 8));
 
 //        assertEquals( 18, pageAdmin.updatePosition( 7));
 //        assertEquals( 19, pageAdmin.updatePosition( 8));

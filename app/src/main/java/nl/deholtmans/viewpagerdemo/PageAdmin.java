@@ -14,7 +14,7 @@ public class PageAdmin {
     public int updatePosition( int position) {
         if( Math.abs( curBase - position) <= 1) {
             ;
-        } else if( curBase == 1 && position == circularPages) {
+        } else if(( curBase == 1 || curBase == 2) && position == circularPages) {
             curBase = position;
             curPage--;
         } else if( curBase == circularPages && position == 1) {
